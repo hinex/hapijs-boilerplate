@@ -1,0 +1,35 @@
+{
+  "name": "hapijs-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for project with hapi.js framework",
+  "main": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hinex/hapijs-boilerplate.git"
+  },
+  "author": "Roman Hinex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hinex/hapijs-boilerplate/issues"
+  },
+  "homepage": "https://github.com/hinex/hapijs-boilerplate#readme",
+  "dependencies": {
+    "config": "^3.1.0",
+    "hapi": "^18.1.0",
+    "hapi-swagger": "^9.4.2",
+    "inert": "^5.1.3",
+    "joi": "^14.3.1",
+    "knex": "^0.16.5",
+    "pg": "^7.10.0",
+    "uuid": "^3.3.2",
+    "vision": "^5.4.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-hapi": "^12.0.0",
+    "eslint-plugin-hapi": "^4.1.0"
+  }
+}
